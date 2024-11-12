@@ -8,7 +8,7 @@ pipeline {
         }
         stage('hello') {
             steps {
-                bat 'C:\\Users\\ravik\\AppData\\Local\\Programs\\Python\\Python313\\python.exe' 
+                bat 'C:\\Users\\ravik\\AppData\\Local\\Programs\\Python\\Python313\\python.exe p1.py' 
                 // Change this path to your Python installation path
             }
         }
